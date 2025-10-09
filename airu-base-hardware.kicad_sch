@@ -1,0 +1,246 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f343fe42-6458-4f46-b8bc-a00e99eb8c9a")
+	(paper "A4")
+	(title_block
+		(title "TELLUS Networked Sensor Solutions, Inc. ")
+		(date "2025-09-16")
+		(rev "v1.0.0")
+	)
+	(lib_symbols)
+	(sheet
+		(at 24.13 31.75)
+		(size 20.32 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6092abc2-149f-4a9b-914f-b2767663846b")
+		(property "Sheetname" "MCU"
+			(at 24.13 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 24.13 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 31.75)
+		(size 19.05 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7fa575d9-78e5-4aa1-bd1b-1f1448cd4870")
+		(property "Sheetname" "Peripheral"
+			(at 59.69 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripheral.kicad_sch"
+			(at 59.69 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 31.75)
+		(size 20.32 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97fcb005-5914-4140-9d61-d327e32687cd")
+		(property "Sheetname" "Network"
+			(at 172.72 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "network.kicad_sch"
+			(at 172.72 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 31.75)
+		(size 21.59 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dac03172-a2c5-4303-923a-d3dc972d93b4")
+		(property "Sheetname" "Internal Sensor"
+			(at 95.25 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "int_sensor.kicad_sch"
+			(at 95.25 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 31.75)
+		(size 20.32 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e69155ab-5586-4ed2-974d-c9c2ff7168f5")
+		(property "Sheetname" "External Sensor"
+			(at 134.62 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ext_sensor.kicad_sch"
+			(at 134.62 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 208.28 31.75)
+		(size 22.86 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ea3003bc-eba7-4b06-aac0-d14e43dcd41d")
+		(property "Sheetname" "Power"
+			(at 208.28 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 208.28 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

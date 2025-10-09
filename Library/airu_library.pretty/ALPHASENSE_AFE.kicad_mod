@@ -1,0 +1,241 @@
+(footprint "ALPHASENSE_AFE"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "surface-mounted straight socket strip, 2x05, 2.00mm pitch, double cols (from Kicad 4.0.7), script generated")
+	(tags "Surface mounted socket strip SMD 2x05 2.00mm double row")
+	(property "Reference" "REF**"
+		(at -6.49 0.5 90)
+		(layer "F.SilkS")
+		(uuid "c3b11a74-58e8-484a-85f8-ff7a6662f7d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ALPHASENSE_AFE_2WAY"
+		(at 6.51 0.5 90)
+		(layer "F.Fab")
+		(uuid "73d4800c-46dc-4b70-a379-994deaa8b149")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.01 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beb71134-9473-401c-a571-b2302bd926c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.01 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7fe956cf-963b-4b96-aa99-839731e9d38e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.01 0 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94bf5c03-6325-4cd4-8eb1-e09250448664")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -24.35 -22.5)
+		(end -21.75 -22.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "68f64d44-c21b-4aaa-b185-e1fbe806df5f")
+	)
+	(fp_circle
+		(center -24.35 0.5)
+		(end -21.75 0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "54a4ec65-fa40-4a16-a92b-38c0cb9a32ca")
+	)
+	(fp_circle
+		(center -5.969 -2.124999)
+		(end -5.588 -2.124999)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "2b29da6d-087e-4349-a948-4938cfc71f3b")
+	)
+	(fp_circle
+		(center 22.65 -22.5)
+		(end 25.25 -22.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "41c89eaf-7694-49b3-806e-22d5448c50b5")
+	)
+	(fp_circle
+		(center 22.65 0.5)
+		(end 25.25 0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "2c3c5623-b825-4b6d-914f-25bf0f1e6652")
+	)
+	(fp_rect
+		(start -26.85 -25)
+		(end 25.15 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0665c462-06f2-4a45-b63f-e6dc2081b301")
+	)
+	(fp_rect
+		(start -26.85 -25)
+		(end 25.15 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0665c462-06f2-4a45-b63f-e6dc2081b301")
+	)
+	(fp_circle
+		(center -24.35 -22.5)
+		(end -21.75 -22.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "9b5aa755-89d9-4e20-b55c-33421ce6e8ee")
+	)
+	(fp_circle
+		(center -24.35 0.5)
+		(end -21.75 0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "bf9f62b1-0b6b-493c-a869-1be6499a0452")
+	)
+	(fp_circle
+		(center -5.969 -2.124999)
+		(end -5.588 -2.124999)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "31952880-31f5-4223-b707-b58f9a3c8489")
+	)
+	(fp_circle
+		(center 22.65 -22.5)
+		(end 25.25 -22.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e4ff6f80-26cf-423a-bfd2-689b966432f7")
+	)
+	(fp_circle
+		(center 22.65 0.5)
+		(end 25.25 0.5)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "83b2b801-f8a3-46db-a4cf-6b3849a20859")
+	)
+	(pad "" np_thru_hole circle
+		(at -24.35 -22.5)
+		(size 1 1)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "75223f89-267c-4f1a-8cb7-6061a1f27db0")
+	)
+	(pad "" np_thru_hole circle
+		(at -24.35 0.5)
+		(size 1 1)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "faf57b1d-102a-4e08-86c2-67eaafebcd53")
+	)
+	(pad "" np_thru_hole circle
+		(at 22.65 -22.5)
+		(size 1 1)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "69e11e4c-8c45-4e86-8fe7-e5b3c767cd7d")
+	)
+	(pad "" np_thru_hole circle
+		(at 22.65 0.5)
+		(size 1 1)
+		(drill 2.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "5b9a2348-eebc-41ce-8f2c-d3dbf439fe16")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.00mm.3dshapes/PinSocket_2x05_P2.00mm_Vertical_SMD.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
