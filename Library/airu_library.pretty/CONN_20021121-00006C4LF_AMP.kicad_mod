@@ -96,26 +96,6 @@
 		(uuid "ecf30c10-e5cf-434e-b652-d8f5a3ef206f")
 	)
 	(fp_line
-		(start 0.635 4.63804)
-		(end 1.905 4.63804)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "74a17cff-284b-4501-af9b-3ec7743dbee9")
-	)
-	(fp_line
-		(start 1.2319 3.44424)
-		(end 0.635 4.63804)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "79081913-7315-4091-b77d-ed5220f6fa5e")
-	)
-	(fp_line
 		(start 1.85674 1.8415)
 		(end 2.032 1.8415)
 		(stroke
@@ -124,16 +104,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "77f0d2c9-10e1-45df-b2d3-6ee3af07d486")
-	)
-	(fp_line
-		(start 1.905 4.63804)
-		(end 1.3081 3.44424)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "41584488-f245-4230-b225-1133e559f493")
 	)
 	(fp_line
 		(start 2.032 -1.8415)
@@ -154,6 +124,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "2b4adfe0-cc23-43af-9584-95e3d47dc10e")
+	)
+	(fp_circle
+		(center 2.19505 2.65)
+		(end 1.94505 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "28f1841a-b5a2-4701-a2c9-722de1b12cca")
 	)
 	(fp_line
 		(start -2.159 -1.9685)
@@ -344,54 +325,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "1147e9f4-21c1-48f8-8700-c2ef0e762900")
-	)
-	(fp_text user "5"
-		(at -2.413 1.7018 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "252b631f-968a-483b-9173-4f2fb1ad4d06")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at 2.413 1.7018 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "54de9d01-716d-4d4d-9749-603be55c0053")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "2"
-		(at 2.413 -1.7018 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "68891657-30c2-490b-a4f3-60833da91087")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "6"
-		(at -2.413 -1.7018 0)
-		(unlocked yes)
-		(layer "F.SilkS")
-		(uuid "7d5c06d4-5875-42b7-8d57-af93204275ec")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(fp_text user "2"
 		(at 2.413 -1.7018 0)

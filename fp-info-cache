@@ -1,4 +1,4 @@
-23853975279926255
+23862796650121654
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -96719,6 +96719,13 @@ AP22811AW5-7
 5
 5
 airu_library
+AP63203WU-7_DIO
+
+AP63203WU-7 
+0
+6
+6
+airu_library
 B3F3100
 B3F-3100
 Switch
@@ -96845,9 +96852,30 @@ IC_PCAL6524HEAZ
 33
 33
 airu_library
+IND_ASPI-0628-3R9M-T1
+
+
+0
+2
+2
+airu_library
+IND_BOURNS_SRU8043
+
+SRU8043-3R9Y 
+0
+2
+2
+airu_library
 IND_VLS3012HBX_TDK
 
 VLS3012HBX-2R2M 
+0
+2
+2
+airu_library
+IND_VLS6045EX-6R8M
+
+
 0
 2
 2
@@ -97005,3 +97033,10 @@ MU00525-32.768K
 0
 2
 2
+airu_library
+logo
+
+
+0
+0
+0

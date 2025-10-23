@@ -4000,6 +4000,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 209.55 49.53)
@@ -6357,6 +6453,17 @@
 		)
 		(uuid "f7f7961d-97d3-42f2-8af5-c30cdf9fc1c1")
 	)
+	(label "RF_IN_EXT"
+		(at 234.95 133.35 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fff1a4ac-7586-4c9d-b6bc-86275038baa5")
+	)
 	(global_label "I2S_WS"
 		(shape input)
 		(at 158.75 44.45 0)
@@ -6377,7 +6484,7 @@
 			)
 		)
 	)
-	(global_label "I2C_SD"
+	(global_label "I2S_SD"
 		(shape output)
 		(at 158.75 49.53 0)
 		(fields_autoplaced yes)
@@ -6389,7 +6496,7 @@
 		)
 		(uuid "1e6b87a8-3522-435a-8263-a39089aea0b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.2666 49.53 0)
+			(at 168.2061 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9943,6 +10050,73 @@
 			(project "airu-base-hardware"
 				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/dac03172-a2c5-4303-923a-d3dc972d93b4"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 243.84 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "847d4172-483c-429a-8452-f791d020cf3b")
+		(property "Reference" "#FLG011"
+			(at 243.84 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 243.84 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 243.84 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2db45e21-098c-4ab4-a2ad-684968ec164c")
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/dac03172-a2c5-4303-923a-d3dc972d93b4"
+					(reference "#FLG011")
 					(unit 1)
 				)
 			)
