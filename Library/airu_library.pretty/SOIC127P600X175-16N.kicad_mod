@@ -184,6 +184,19 @@
 		(layer "F.Fab")
 		(uuid "c479fb40-7b10-471b-ac71-3614c9f04446")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -1.7 0.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3e5a5d50-6e35-460d-8410-701edf66d636")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "1" smd roundrect
 		(at -2.475 -4.445)
 		(size 1.97 0.6)

@@ -6,10 +6,170 @@
 	(paper "A4")
 	(title_block
 		(title "TELLUS Networked Sensor Solutions, Inc. ")
-		(date "2025-09-16")
+		(date "2025-10-28")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -1856,6 +2016,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 135.89) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c215c4e-9bf0-4fe2-af24-ae444e9582bf")
+	)
+	(wire
+		(pts
 			(xy 167.64 90.17) (xy 167.64 106.68)
 		)
 		(stroke
@@ -2046,6 +2216,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 135.89) (xy 139.7 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878f83f3-aa40-4f33-bb9f-e9bc82f10712")
+	)
+	(wire
+		(pts
 			(xy 171.45 77.47) (xy 171.45 74.93)
 		)
 		(stroke
@@ -2053,6 +2233,16 @@
 			(type default)
 		)
 		(uuid "92631e04-6e2f-4ffc-9d48-e5d93bcabbce")
+	)
+	(wire
+		(pts
+			(xy 139.7 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a20b815b-b2d5-43ec-b865-0400a5319aba")
 	)
 	(wire
 		(pts
@@ -2223,6 +2413,16 @@
 			(type default)
 		)
 		(uuid "fec692b2-593c-4072-b89d-442e81f9c486")
+	)
+	(text "External Power Connection"
+		(exclude_from_sim no)
+		(at 139.192 124.46 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+			)
+		)
+		(uuid "437f5299-813a-4b19-ae16-9065e347d1e5")
 	)
 	(text "Network Daughter Card"
 		(exclude_from_sim no)
@@ -3126,6 +3326,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 139.7 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "648e00e3-ecd6-4522-b1b4-e978a5d8e2e1")
+		(property "Reference" "#PWR0202"
+			(at 139.7 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe6b49af-43b8-4917-ae7c-c7cbb9bcd9b7")
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/97fcb005-5914-4140-9d61-d327e32687cd"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 186.69 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3184,6 +3449,94 @@
 			(project "airu-base-hardware"
 				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/97fcb005-5914-4140-9d61-d327e32687cd"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 149.86 133.35 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89fd3061-73b3-4f61-980b-ee88fd3930e4")
+		(property "Reference" "J20"
+			(at 151.13 135.8901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10129380-902001BLF"
+			(at 151.13 133.3501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "airu_library:AMPHENOL_10129380-902001BLF"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CONN, 2P, HDR, 2.54MM, SMT"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol ICC"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_PN" "10129380-902001BLF"
+			(at 149.86 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b3afcca0-e2af-4c09-bc0b-77b4124fadcf")
+		)
+		(pin "1"
+			(uuid "4ef9d838-02d9-4e7d-a724-eefaba58e924")
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/97fcb005-5914-4140-9d61-d327e32687cd"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -3558,6 +3911,71 @@
 			(project "airu-base-hardware"
 				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/97fcb005-5914-4140-9d61-d327e32687cd"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 139.7 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b43d5042-2952-400b-b436-cc68ccaeecfd")
+		(property "Reference" "#PWR0201"
+			(at 139.7 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_NET_IN"
+			(at 140.462 129.032 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 139.7 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f9bc8189-bc4d-43f0-b078-4c1d8ec81d27")
+		)
+		(instances
+			(project "airu-base-hardware"
+				(path "/f343fe42-6458-4f46-b8bc-a00e99eb8c9a/97fcb005-5914-4140-9d61-d327e32687cd"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)

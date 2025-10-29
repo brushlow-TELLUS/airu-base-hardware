@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "TELLUS Networked Sensor Solutions, Inc. ")
-		(date "2025-09-16")
+		(date "2025-10-28")
 		(rev "v1.0.0")
 	)
 	(lib_symbols
@@ -4036,6 +4036,16 @@
 		)
 		(uuid "bfd186fc-3adc-4c3c-9fe5-80e2a39eaeb3")
 	)
+	(text "I2C Address 0x6F"
+		(exclude_from_sim no)
+		(at 70.104 144.526 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+		)
+		(uuid "f0c6aa97-df98-4af5-ba3e-30028b1f6a5e")
+	)
 	(label "HW_ID2"
 		(at 231.14 74.93 0)
 		(fields_autoplaced yes)
@@ -6004,7 +6014,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "5419984c-03b0-460d-b85f-3e40ff64ad1d")
@@ -6323,7 +6333,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "62c044d5-41c5-4bb5-9fbf-74e3a88d0c3b")
@@ -7575,7 +7585,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "add1b05b-cd19-4eea-821d-a469bfe51d45")
@@ -8757,7 +8767,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "f8bb5bc0-9a3f-40f6-95a8-0be696fc4e03")

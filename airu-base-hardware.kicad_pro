@@ -60,18 +60,14 @@
       ],
       "drc_exclusions": [
         "clearance|144968902|82146098|57764302-25cf-4531-8448-f2de14d17e99|8d3a7030-809a-4e4b-aff4-74a3340d2b4c",
-        "hole_clearance|138473800|131755000|9262cf54-cde6-446b-9e26-6e81c955ebb6|1b0f99d8-c684-454c-8d97-8d3ed20ad939",
-        "hole_clearance|138673800|131755000|9262cf54-cde6-446b-9e26-6e81c955ebb6|958b991b-b297-4b78-be7d-2dc307f6d466",
-        "hole_clearance|144073800|131755000|d9f67fe9-45cb-4e9e-a6d5-28e1fa9a3fed|4d8b8d83-2405-44fb-8b8c-87ddf6d4d8a4",
-        "hole_clearance|144273800|131755000|d9f67fe9-45cb-4e9e-a6d5-28e1fa9a3fed|a293e749-4f4b-4592-9fc9-3ff0c19ef0bc",
-        "items_not_allowed|105675068|126004710|51940b3f-f6b3-4f9a-a466-ffbba72831f5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|141373800|134575000|46ae7eda-0de5-41d1-85bd-0edeb7a470a2|00000000-0000-0000-0000-000000000000",
+        "hole_clearance|138473800|131755000|694be56b-7a36-44a1-ad8c-9b1aacd32180|2e58e7d9-8a4e-46d3-89e5-305200de0275",
+        "hole_clearance|138673800|131755000|694be56b-7a36-44a1-ad8c-9b1aacd32180|490a44b6-5bdf-4750-a490-280eee8443bb",
+        "hole_clearance|144073800|131755000|3c45ae35-d4c0-4549-bd32-d61e739acb96|978c6aa8-a2f5-4ff6-83c2-7d4a6df3ad78",
+        "hole_clearance|144273800|131755000|3c45ae35-d4c0-4549-bd32-d61e739acb96|0731e563-3a19-4764-9116-0c37e5c17b36",
+        "items_not_allowed|105675068|126004710|e468b687-0075-4d20-995f-6592ffe752f5|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|145268901|81521101|e537f4c2-9279-47e8-bd1d-878fdd0b2839|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|97825100|134572360|47039151-a0ed-4e19-9e58-cd50ab4e1706|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|103712784|83737784|8ffddb1a-3bbb-43e1-96b5-2f00e57142c2|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|114726092|120775000|47cec829-cfee-4726-809a-4372a075a53f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|141886308|86800000|e7d35ee7-98f4-41b9-ac94-fb9ba3aec30f|00000000-0000-0000-0000-000000000000",
-        "silk_over_copper|145199302|82154102|e351584e-4797-465b-95a0-7100ffab7b49|00000000-0000-0000-0000-000000000000",
         "silk_over_copper|153675000|61983100|33648cba-14ed-480b-88f5-7c3c3e092295|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
@@ -566,8 +562,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "AirU-Base-Hardware_v1.0.0_Package/",
+      "pos_files": "AirU-Base-Hardware_v1.0.0_Package/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -577,7 +573,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "AirU-Base-Hardware_v1.0.0_BOM.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -588,7 +584,222 @@
       "ref_range_delimiter": "",
       "string_delimiter": "\""
     },
-    "bom_presets": [],
+    "bom_presets": [
+      {
+        "exclude_dnp": true,
+        "fields_ordered": [
+          {
+            "group_by": false,
+            "label": "Reference",
+            "name": "Reference",
+            "show": true
+          },
+          {
+            "group_by": true,
+            "label": "Description",
+            "name": "Description",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Value",
+            "name": "Value",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Datasheet",
+            "name": "Datasheet",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Qty",
+            "name": "${QUANTITY}",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "DNP",
+            "name": "${DNP}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "#",
+            "name": "${ITEM_NUMBER}",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "AVAILABILITY",
+            "name": "AVAILABILITY",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Part Number",
+            "name": "Arrow Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Arrow Price/Stock",
+            "name": "Arrow Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Availability",
+            "name": "Availability",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Check_prices",
+            "name": "Check_prices",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Description_1",
+            "name": "Description_1",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Height",
+            "name": "Height",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MANUFACTURER",
+            "name": "MANUFACTURER",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MAXIMUM_PACKAGE_HEIGHT",
+            "name": "MAXIMUM_PACKAGE_HEIGHT",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MF",
+            "name": "MF",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "MP",
+            "name": "MP",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Name",
+            "name": "Manufacturer_Name",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_Part_Number",
+            "name": "Manufacturer_Part_Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Part Number",
+            "name": "Mouser Part Number",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Mouser Price/Stock",
+            "name": "Mouser Price/Stock",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PACKAGE",
+            "name": "PACKAGE",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PARTREV",
+            "name": "PARTREV",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "PRICE",
+            "name": "PRICE",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Package",
+            "name": "Package",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Price",
+            "name": "Price",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Purchase-URL",
+            "name": "Purchase-URL",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SNAPEDA_PN",
+            "name": "SNAPEDA_PN",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "STANDARD",
+            "name": "STANDARD",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "SnapEDA_Link",
+            "name": "SnapEDA_Link",
+            "show": false
+          },
+          {
+            "group_by": false,
+            "label": "Manufacturer_PN",
+            "name": "Manufacturer_PN",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Footprint",
+            "name": "Footprint",
+            "show": true
+          },
+          {
+            "group_by": false,
+            "label": "Manufactuer_PN",
+            "name": "Manufactuer_PN",
+            "show": false
+          }
+        ],
+        "filter_string": "",
+        "group_symbols": true,
+        "name": "Default",
+        "sort_asc": true,
+        "sort_field": "Reference"
+      }
+    ],
     "bom_settings": {
       "exclude_dnp": true,
       "fields_ordered": [
@@ -608,19 +819,13 @@
           "group_by": false,
           "label": "Value",
           "name": "Value",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Footprint",
-          "name": "Footprint",
-          "show": true
         },
         {
           "group_by": false,
@@ -788,6 +993,12 @@
           "group_by": false,
           "label": "Manufacturer_PN",
           "name": "Manufacturer_PN",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Footprint",
+          "name": "Footprint",
           "show": true
         },
         {

@@ -17,6 +17,7 @@
 	(property "Value" "MOLEX_533980471"
 		(at 4.15 4.615 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "5e21cc7e-9961-4f1a-beb4-a47745f2f08c")
 		(effects
 			(font
@@ -323,6 +324,19 @@
 		)
 		(layer "F.Fab")
 		(uuid "d3650fea-0035-4d43-935d-12bce1e88c7d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.5 0.45 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e6ae9e46-0296-44ff-8bc3-fafae1867d5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "1" smd rect
 		(at 1.875 1.75)
