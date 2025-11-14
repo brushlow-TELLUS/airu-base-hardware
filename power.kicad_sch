@@ -4973,7 +4973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_PN" "MAX40200AUK"
+		(property "Manufacturer_PN" "MAX40200AUK+T"
 			(at 80.01 67.31 0)
 			(effects
 				(font
@@ -5859,7 +5859,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Bourns"
+		(property "Manufacturer_Name" "Abracon LLC"
 			(at 110.49 109.22 0)
 			(effects
 				(font
